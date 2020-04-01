@@ -1,0 +1,279 @@
+(************** Content-type: application/mathematica **************
+                     CreatedBy='Mathematica 5.0'
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[      4890,        192]*)
+(*NotebookOutlinePosition[      5536,        214]*)
+(*  CellTagsIndexPosition[      5492,        210]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+Cell[BoxData[
+    \(T\_2 = 16.25\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{
+      StyleBox[" ",
+        FormatType->StandardForm,
+        FontFamily->
+          "\[CapitalEDoubleDot]\[CapitalIHat]\[CapitalIGrave]\[ARing]",
+        FontSize->10.5], 
+      RowBox[{\(T\&_ = 16.28\), 
+        StyleBox["\n",
+          FormatType->StandardForm,
+          
+          FontFamily->
+            "\[CapitalEDoubleDot]\[CapitalIHat]\[CapitalIGrave]\[ARing]",
+          FontSize->10.5]}]}]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\((0.25 + 0.3)\)/2\)], "Input"],
+
+Cell[BoxData[
+    \(0.275`\)], "Output"]
+}, Open  ]],
+
+Cell[BoxData[{
+    \(v\_t = \(v\_0\) \@\(1 + t\/273.15\)\), "\[IndentingNewLine]", 
+    \(v\_0 = 331.45  m/s\)}], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(331.45*\@\(1 + 16.275\/273.15\)\)], "Input"],
+
+Cell[BoxData[
+    \(341.1814746036378`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(11.424 - 8.886\)], "Input"],
+
+Cell[BoxData[
+    \(2.5380000000000003`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(11.930 - 9.390\)], "Input"],
+
+Cell[BoxData[
+    \(2.539999999999999`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(10.912 - 7.860\)], "Input"],
+
+Cell[BoxData[
+    \(3.0520000000000005`\)], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+    \(\(\(11.424\)\(-\)\)\)], "Input"],
+
+Cell[BoxData[
+    \(u\_v = \(v \((u\_\[Lambda]\/\[Lambda] + u\_f\/f)\) = 
+        4.56\ m/s\)\)], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(351.54*\((0.00272/0.0512 + 50/34330)\)\)], "Input"],
+
+Cell[BoxData[
+    \(19.18756366516167`\)], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+    \(\[CapitalDelta]x\&_ = \(3.075  
+          cm\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \[Sigma]\_x = \(0.014 
+             cm\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ t = 
+          1.11\)\)\)], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(3.075/6\)], "Input"],
+
+Cell[BoxData[
+    \(0.5125`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(0.0512*34.33*2\)], "Input"],
+
+Cell[BoxData[
+    \(3.515392`\)], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+    \(v = \(\[Lambda]\ f = \(2 \((x\_\(n + 1\) - x\_n)\) f = 
+          351.54  m/s\)\)\)], "Input"],
+
+Cell[BoxData[
+    FormBox[
+      RowBox[{\(u\_\[Lambda]\), "=", 
+        RowBox[{\(\@\(u\_A\%2 + u\_B\%2\)\), "=", 
+          RowBox[{
+            RowBox[{\(1\/6\), " ", 
+              SqrtBox[
+                RowBox[{
+                  SubsuperscriptBox["\[CapitalDelta]", 
+                    StyleBox["\:4f30",
+                      
+                      FontFamily->
+                        "\[CapitalEDoubleDot]\[CapitalIHat]\[CapitalIGrave]\
+\[ARing]"], "2"], "+", \(\((t\ \[Sigma]\_x)\)\^2\)}]]}], 
+            "=", \(0.00272  cm\)}]}]}], TraditionalForm]], "Input",
+  FormatType->StandardForm],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Sqrt[0.005*0.005 + \((1.11*0.014)\)^2]/6\)], "Input"],
+
+Cell[BoxData[
+    \(0.002720761739742098`\)], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+    \(u\_v = \(v \((u\_\[Lambda]\/\[Lambda] + u\_f\/f)\) = 
+        19.18  m/s\)\)], "Input"]
+},
+FrontEndVersion->"5.0 for Microsoft Windows",
+ScreenRectangle->{{0, 1024}, {0, 738}},
+WindowSize->{495, 527},
+WindowMargins->{{-46, Automatic}, {Automatic, 38}}
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+Cell[1754, 51, 45, 1, 30, "Input"],
+Cell[1802, 54, 440, 13, 50, "Input"],
+
+Cell[CellGroupData[{
+Cell[2267, 71, 51, 1, 30, "Input"],
+Cell[2321, 74, 40, 1, 29, "Output"]
+}, Open  ]],
+Cell[2376, 78, 122, 2, 73, "Input"],
+
+Cell[CellGroupData[{
+Cell[2523, 84, 64, 1, 51, "Input"],
+Cell[2590, 87, 52, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2679, 93, 47, 1, 30, "Input"],
+Cell[2729, 96, 53, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2819, 102, 47, 1, 30, "Input"],
+Cell[2869, 105, 52, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2958, 111, 47, 1, 30, "Input"],
+Cell[3008, 114, 53, 1, 29, "Output"]
+}, Open  ]],
+Cell[3076, 118, 52, 1, 30, "Input"],
+Cell[3131, 121, 106, 2, 40, "Input"],
+
+Cell[CellGroupData[{
+Cell[3262, 127, 71, 1, 30, "Input"],
+Cell[3336, 130, 52, 1, 29, "Output"]
+}, Open  ]],
+Cell[3403, 134, 232, 4, 30, "Input"],
+
+Cell[CellGroupData[{
+Cell[3660, 142, 40, 1, 30, "Input"],
+Cell[3703, 145, 41, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3781, 151, 47, 1, 30, "Input"],
+Cell[3831, 154, 43, 1, 29, "Output"]
+}, Open  ]],
+Cell[3889, 158, 114, 2, 30, "Input"],
+Cell[4006, 162, 602, 15, 45, "Input"],
+
+Cell[CellGroupData[{
+Cell[4633, 181, 73, 1, 30, "Input"],
+Cell[4709, 184, 55, 1, 29, "Output"]
+}, Open  ]],
+Cell[4779, 188, 107, 2, 40, "Input"]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+
