@@ -1,0 +1,208 @@
+(***********************************************************************
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used on any computer system with Mathematica 4.0,
+MathReader 4.0, or any compatible application. The data for the notebook 
+starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do one of 
+the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing the 
+word CacheID, otherwise Mathematica-compatible applications may try to 
+use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+***********************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[      4610,        147]*)
+(*NotebookOutlinePosition[      5266,        170]*)
+(*  CellTagsIndexPosition[      5222,        166]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+    \(1\/18*10.73*\((6*1.62*10\^\(-5\)\/\(3.14159*\((1.578*10\^\(-3\))\)\^3\) \
+- 0.9530)\)*9.8*\((1.578*10\^\(-3\))\)\^2/\((0.2000*\((1 + 
+                2.4*\(1.578*10\^\(-3\)\)\/\(8.735*10\^\(-2\)\))\)*\((1 + 
+                3.3*\(1.578*10\^\(-3\)\)\/\(2*3.032*10\^\(-1\)\))\))\)\)], \
+"Input"],
+
+Cell[BoxData[
+    \(0.5441694788624201`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(1\/18*10.73*\((6*1.62*10\^\(-5\)\/\(3.14159*\((1.578*10\^\(-3\))\)\^3\) \
+- 0.9530)\)*9.8*\((1.578*10\^\(-3\))\)\^2/\((0.2000*\((1 + 
+                2.4*\(1.578*10\^\(-3\)\)\/\(8.735*10\^\(-2\)\))\)*\((1 + 
+                3.3*\(1.578*10\^\(-3\)\)\/\(2*3.032*10\^\(-1\)\))\))\)\)], \
+"Input"],
+
+Cell[BoxData[
+    \(0.5441694788624201`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(2*3.14159*0.9530*\(\(2.372*10\^\(-3\)\)\/2\)/0.355\)], "Input"],
+
+Cell[BoxData[
+    \(0.02000454777588732`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(2*3.14159*0.9530*\(\(1.578*10\^\(-3\)\)\/2\)/0.544\)], "Input"],
+
+Cell[BoxData[
+    \(0.008684613705992645`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(0.544 - \
+\(\(3\/16\)\(*\)\(2.732\)\(*\)\(10\^\(-3\)\)\(*\)\(0.2\/4.86\)\(*\)\(0.9530\)\
+\(\[IndentingNewLine]\)\)\)], "Input"],
+
+Cell[BoxData[
+    \(0.5439799105246914`\)], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+    RowBox[{
+      StyleBox["0.330",
+        FontSize->14], 
+      StyleBox["*",
+        FontSize->14], 
+      RowBox[{
+        StyleBox["\[Sqrt]",
+          FontSize->14], 
+        RowBox[{
+          StyleBox["(",
+            FontSize->14], 
+          RowBox[{
+            StyleBox[\((0.02\/4.86)\),
+              FontSize->14], 
+            StyleBox["+",
+              FontSize->14], 
+            
+            StyleBox[\(\((\(\(-\(\(18*5.49*10\^\(-5\)\)\/3.14159\)\)*\((2.372*\
+10\^\(-3\))\)\^\(-4\)*0.002*10\^\(-3\)\)\/\(\(6*5.49*10\^\(-5\)\)\/\(3.14159*\
+\((2.372*10\^\(-3\))\)\^\(-3\)\) - 0.9530\))\)\^2\),
+              FontSize->14], 
+            StyleBox["+",
+              FontSize->14], 
+            
+            StyleBox[\(\((2*\(0.002*10\^\(-3\)\)\/\(2.372*10\^\(-3\)\))\)\^2\)\
+,
+              FontSize->14], 
+            StyleBox["-",
+              FontSize->14], 
+            SuperscriptBox[
+              
+              StyleBox[\((\(2.4*\(8.735*10\^\(-2\)*0.002*10\^\(-3\) - \
+2.372*10\^\(-3\)*6*10\^\(-5\)\)\/\((8.735*10\^\(-2\))\)\^2\)\/\(1 + \
+2.4*\(2.372*10\^\(-3\)\)\/\(8.735*10\^\(-2\)\)\))\),
+                FontSize->14], "2"], "-", 
+            SuperscriptBox[
+              
+              StyleBox[\((\(3.3*\(2*3.032*10\^\(-1\)*0.002*10\^\(-3\) - \
+2*2.372*10\^\(-3\)*0.08*10\^\(-2\)\)\/\((2*3.032*10\^\(-1\))\)\^2\)\/\(1 + \
+3.3*\(2.372*10\^\(-3\)\)\/\(2*3.032*10\^\(-1\)\)\))\),
+                FontSize->14], "2"]}], ")"}]}]}]], "Input"]
+},
+FrontEndVersion->"4.0 for Microsoft Windows",
+ScreenRectangle->{{0, 1280}, {0, 949}},
+WindowSize->{631, 379},
+WindowMargins->{{173, Automatic}, {Automatic, 49}}
+]
+
+
+(***********************************************************************
+Cached data follows.  If you edit this Notebook file directly, not using
+Mathematica, you must remove the line containing CacheID at the top of 
+the file.  The cache data will then be recreated when you save this file 
+from within Mathematica.
+***********************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1739, 51, 313, 5, 86, "Input"],
+Cell[2055, 58, 53, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2145, 64, 313, 5, 86, "Input"],
+Cell[2461, 71, 53, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2551, 77, 83, 1, 45, "Input"],
+Cell[2637, 80, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2728, 86, 83, 1, 45, "Input"],
+Cell[2814, 89, 55, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2906, 95, 147, 3, 63, "Input"],
+Cell[3056, 100, 53, 1, 29, "Output"]
+}, Open  ]],
+Cell[3124, 104, 1482, 41, 235, "Input"]
+}
+]
+*)
+
+
+
+
+(***********************************************************************
+End of Mathematica Notebook file.
+***********************************************************************)
+
